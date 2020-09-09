@@ -19,7 +19,9 @@
   "homepage": "https://github.com/mrasahi/mongo001#readme",
   "dependencies": {
     "console.table": "^0.10.0",
+    "express": "^4.17.1",
     "inquirer": "^7.3.3",
-    "mongojs": "^3.1.0"
+    "mongojs": "^3.1.0",
+    "mongoose": "^5.10.4"
   }
 }
