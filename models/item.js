@@ -1,4 +1,5 @@
 const { model, Schema } = require('mongoose')
+const { schema } = require('./user')
 
 const Item = new Schema({
     text: {
@@ -9,6 +10,10 @@ const Item = new Schema({
     isDone: {
         type: Boolean,
         required: true
+    },
+    user: {
+        type: Schema.Types.ObjectId,
+        ref: 'User'
     }
 }, { timestamps: true })
 
